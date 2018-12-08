@@ -3,5 +3,5 @@
 ## Compile
 
 ```sh
-$ gcc -o output/output_file file.c
+$ gcc -o outputs/output_file file.c
 ```
