@@ -9,4 +9,6 @@ void main() {
 	printf("%li\n",sizeof(char));
 	printf("%li\n",sizeof(ch));
 	printf("%d\n",sizeof('a'));
+	printf("%d\n",sizeof(10.5F));
+	printf("%d\n",sizeof(float));
 }
