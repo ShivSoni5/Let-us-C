@@ -1,11 +1,14 @@
 #include <stdio.h>
 
 int main() {
-	char str[20] = "jaipur hello world";
+	char str[20] = "aaaaaaaaaaaaaaaaaaaaaa";  // warning as characters are more than 20!
+	char inthis[30];
+	printf("Enter string: ");
+	gets(inthis);
 	int i,j;
 	j =0;
-	for (i=0;str[i]!='\0';i++){
-		if (str[i] == 'a' || str[i] =='e' ||str[i] == 'i' ||str[i] == 'o' ||str[i] == 'u'){
+	for (i=0;inthis[i]!='\0';i++){
+		if (inthis[i] == 'a' || inthis[i] =='e' ||inthis[i] == 'i' ||inthis[i] == 'o' ||inthis[i] == 'u'){
 			j += 1;
 		}
 	}
