@@ -4,7 +4,7 @@ int main() {
 	char str[20] = "aaaaaaaaaaaaaaaaaaaaaa";  // warning as characters are more than 20!
 	char inthis[30];
 	printf("Enter string: ");
-	gets(inthis);
+	fgets(inthis, sizeof inthis, stdin);
 	int i,j;
 	j =0;
 	for (i=0;inthis[i]!='\0';i++){
